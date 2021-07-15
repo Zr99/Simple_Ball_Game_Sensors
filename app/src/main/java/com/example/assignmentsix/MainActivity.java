@@ -4,7 +4,6 @@ import androidx.annotation.Dimension;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
-
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -21,7 +20,6 @@ import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
-
 import java.lang.reflect.GenericArrayType;
 import java.util.Random;
 
@@ -61,8 +59,6 @@ public class MainActivity extends AppCompatActivity {
             paint[0].setColor(getColor(R.color.colorPrimary));
             paint[1].setColor(getColor(R.color.colorAccent));
             paint[2].setColor(getColor(R.color.colorPrimaryDark));
-
-
         }
 
         @Override
